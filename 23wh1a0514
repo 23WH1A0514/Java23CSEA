@@ -1,0 +1,19 @@
+package javalab_514;
+
+public class AccessExample {
+    // Non-static variable
+    int number = 100;
+
+    
+    public static void printNumber() {
+        
+        
+        AccessExample obj = new AccessExample();
+        System.out.println(obj.number); // Output: 100
+    }
+
+    public static void main(String[] args) {
+       
+        printNumber();
+    }
+}
